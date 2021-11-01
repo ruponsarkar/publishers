@@ -1,0 +1,27 @@
+.archive-container{
+    margin: 0;
+}
+
+.archive{
+    margin: 0;
+}
+
+.volumn{
+    margin: 0;
+}
+
+.volumn-name{
+    margin: 0;
+}
+
+.all-issues{
+    margin: 0;
+}
+
+.issues{
+    margin: 0;
+    width: 100px;
+    height: 30px;
+    border-style: groove;
+}
+

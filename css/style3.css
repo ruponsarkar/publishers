@@ -1,0 +1,115 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    min-height: 200vh;
+}
+
+header{
+    position: fixed;
+    left: 0;
+    margin: 0px;
+    padding: 10px;
+    background-color: rgb(30, 167, 167);
+    width: 100%;
+    height: 40px;
+    display: flex;
+    text-align: center;
+    transition: 0.5s;
+    z-index: 100000;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+
+header .logo{
+    position: relative;
+    font-weight: 700;
+    color: brown;
+    text-decoration: none;
+    font-size: s;
+    letter-spacing: 2px;
+    transition: 0.4s;
+
+}
+
+header #hide{
+color: blue;
+visibility: hidden;
+transition: 0.3s;
+}
+
+
+
+header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+   
+
+}
+
+header ul li{
+    font-weight: bold;
+    position: relative;
+    list-style: none;
+    padding: 10px;
+    border-radius: 3px;
+    border-bottom-color: rgb(247, 89, 16);
+    border-bottom-style: groove;
+    border-top-style: groove;
+}
+
+header ul li a{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color:crimson;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 0.4s;
+}
+
+.sticky{
+    padding: 5px;
+    height: 40px;
+    background: rgb(255, 6, 44);
+    transition: 0.4s;
+    }
+
+    .sticky .logo{
+        color: rgb(240, 233, 233);
+        transition: 0.6s;
+        font-size: xx-large;
+    }
+
+    .sticky #hide{
+        visibility: inherit;
+        font-size: x-large;
+    }
+
+ .sticky ul li a{
+    color: rgb(240, 233, 233);
+    letter-spacing: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

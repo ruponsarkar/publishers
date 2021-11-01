@@ -1,0 +1,59 @@
+
+
+    @media (max-width: 1180px){
+        label.logo{
+            font-size: 32;
+            padding-left: 60px;
+        }
+        nav ul{
+            margin-right: 20px;
+        }
+        nav a{
+            font-size: 17px;
+        }
+        nav li{
+            font-size: 5px;
+        }
+        header .poster h1{
+            color: darkred;
+            font-size: x-large;
+            text-decoration: overline;
+            letter-spacing: 3px;
+        }
+
+        header .poster p{
+            color: blue;
+            font-size: large;
+        }
+        
+        header .moto{
+            color: rgb(16 15 15 / 61%);
+            font-size: x-small;
+            font-style: italic;
+            font-family: emoji;
+            font-weight: bold;
+            margin: auto;
+        }
+        
+        header .contact{
+            width: 100%;
+            text-align: center;
+            padding: 7px;
+            display: flex;
+            flex-direction: column;
+            align-content: flex-end;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: flex-start;
+            font-size: smaller;
+            font-weight: bold;
+            font-style: oblique;
+            color: dimgrey;
+            margin: 20px;
+        }
+
+
+        
+    
+    }
+   

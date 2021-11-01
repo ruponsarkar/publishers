@@ -1,0 +1,109 @@
+.contact-container{
+    width: 100%;
+    display: flex;
+
+}
+
+
+
+
+.contact-us{
+    margin: 0;
+    width: 50%;
+}
+
+
+
+.contact-us p{
+    padding: 5px;
+}
+
+
+
+
+.get-touch{
+    margin: 0;
+    width: 50%;
+}
+
+
+.get-touch input{
+       
+        margin: 5px;
+        padding: 7px;
+        display: flex;
+        width: 70%;
+}
+
+
+.get-touch input[type=submit]{
+    width: 102px;
+    text-align: center;
+    display: block;
+    background: cyan;
+    border-radius: 5px;
+    font-weight: bold;
+    color: crimson;
+}
+
+
+
+
+h1{
+    text-decoration: underline;
+    margin: 20px;
+}
+
+
+
+
+
+
+@media (max-width: 600px){
+    .contact-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    }
+
+    
+.contact-us{
+    margin: 0;
+    width: 100%;
+}
+
+
+
+.contact-us p{
+    padding: 5px;
+}
+
+
+
+
+.get-touch{
+    margin: 0;
+    width: 100%;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

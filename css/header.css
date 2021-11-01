@@ -1,0 +1,231 @@
+*{
+    
+    text-decoration: none;
+    list-style: none;
+   
+
+}
+
+header{
+    font-size: initial;
+    padding-bottom: 0px;
+    /* padding: 15px; */
+    margin: 0;
+    
+    background-image: url(../images/headerimg2.jpeg);
+    /* filter:blur(2px); */
+    /* background-color: rgb(4 34 184); */
+    width: 100%;
+    height: 220px;
+    display: flex;
+    line-height: initial;
+    align-items: center;   
+}
+
+
+header .bg{
+    height: 194px;
+    width: 225px;
+    background-color: blanchedalmond;
+    position: absolute;
+    filter: blur(52px);
+
+}
+
+header .bgp{
+    height: 120px;
+    width: 700px;
+    background-color: rgb(19, 18, 18);
+    filter: blur(45px);
+    position: absolute;
+    z-index: -1;
+}
+
+
+
+header .bgc{
+    height: 128px;
+    width: 300px;
+    background-color: #131413;
+    filter: blur(71px);
+    position: absolute;
+    z-index: -1;
+
+}
+
+
+
+header .img{
+    display: flex;
+}
+
+header .img img{
+    height: 225px;
+    width: 225px;
+    z-index: 1;
+    
+    /* margin-top: -85px; */
+}
+
+header .poster{
+    display: flex;
+    padding: 7px;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-variant: petite-caps;
+    font-stretch: ultra-expanded;
+    width: 700px;
+   
+    z-index: 2;
+
+}
+
+
+
+
+header .poster h1{
+    width: 720px;
+    color: white;
+    font-size: 62px;
+    /* text-decoration: overline; */
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-variant: petite-caps;
+    font-stretch: ultra-expanded;
+    
+}
+
+header .poster p{
+    color: white;
+    font-size: x-large;
+    
+    
+    font-weight: bold;
+    font-family: sans-serif;
+    font-variant: petite-caps;
+    font-stretch: ultra-expanded;
+    
+
+    
+}
+
+header .moto{
+    color: rgb(16 15 15 / 61%);
+    font-size: px;
+    /* font-style: italic; */
+    font-family: emoji;
+    font-weight: bold;
+    margin: auto;
+    font-size: 17px;
+    margin-top: -2px;
+    display: contents;
+    color: white;
+}
+
+header .contact{
+  
+    
+    width: 100%;
+    text-align: center;
+    padding: 7px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    /* font-size: 15px; */
+    font-weight: bold;
+    /* font-style: oblique; */
+    color: white;
+    margin: 20px;
+    text-shadow: 0px 0px 5px #0e0d0d;
+    letter-spacing: 1px;
+    z-index: 1;
+    
+}
+
+
+header .contact .contact-align{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+header .contact span{
+    display: flex;
+    align-items: center;
+}
+
+
+.submission{
+    height: 220px;
+    width: 100%;
+   
+    margin-top: auto;
+    position: absolute;
+    z-index: 5;
+}
+.submission span{
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    align-items: flex-end;
+    color: rgb(26, 11, 241);
+    font-size: large;
+    text-align: center;
+    
+}
+
+.submission span .sub{
+    height: 45px;
+    width: 180px;
+    /* background-color: rgb(184, 4, 124); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    position: fixed;
+}
+
+
+.submission span .sub input {
+    font-size: large;
+    font-weight: bold;
+    background-color: aqua;
+    height: 45px;
+    width: 240px;
+    border-radius: 43px;
+    position: fixed;
+
+}
+
+.submission span .hide1{
+    height: 35px;
+    width: 120px;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+
+
+.submission span .sub input:hover {
+   
+    background-color: yellow;
+   
+    
+}
+
+
+
+
+
+
